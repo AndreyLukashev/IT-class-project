@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+/* импортируем шрифты */
+
+* {
+    box-sizing: border-box;
+}
+
+/* выбираем все элементы на странице */
+
+html {
+    font-family: Raleway;
+    font-size: 16px;
+    color: #051101;
+}
+
+/* указываем шрифт по умолчанию */
+
+body,
+h1,
+p {
+    margin: 0;
+}
+
+/* обнуляем все базовые стили браузера */
+
+a {
+    text-decoration: none;
+}
+
+.body-base {
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: #051101;
+    opacity: 0.7;
+}
+
+/* параграф базовый текст*/
+
+.title {
+    color: #051101;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+/* заголовок h1 */
+
+.sub-title {
+    color: #000;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+/* заголовок h2 */
+
+.text-center {
+    text-align: center;
+}
+
+/* св-во центрирующей текст */
+
+.display-flex {
+    display: flex;
+}
+
+/* расставляет элементы друг за другом */
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 850px;
+    background: #EBFFE4;
+    background-image: url('./images/backgroundline.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.top-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 44px;
+}
+
+.nav-link {
+    color: #051101;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 30px;
+    opacity: 0.6;
+}
+
+.nav-link-active {
+    opacity: 1;
+}
+
+.nav-link-green {
+    opacity: 0.7;
+    color: #5CBE3A;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.btn {
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #5CBE3A;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: Raleway;
+}
+
+.btn1 {
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(92, 190, 58, 0.30);
+    color: #5CBE3A;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.left-panel {
+    width: 425.484px;
+    flex-shrink: 0;
+    padding-top: 50px;
+}
+
+.left-panel-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 250px;
+}
+
+.left-panel-info {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.left-panel-info1 {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    margin-left: 25px;
+}
+
+.slogan {
+    width: 334.487px;
+    height: 27.568px;
+    flex-shrink: 0;
+    color: #5CBE3A;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin: 0;
+    margin-right: 15px;
+}
+
+.nike-green {
+    width: 50.181px;
+    height: 22.25px;
+    flex-shrink: 0;
+    color: #87D16D;
+    margin-bottom: 10.31px;
+    padding-top: 5px;
+}
+
+.slogan1 {
+    color: #87D16D;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    text-decoration-line: line-through;
+    height: 35px;
+    margin: 0;
+}
+
+.text3 {
+    color: #5CBE3A;
+    font-family: Raleway;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    height: 35px;
+    margin: 0;
+}
+
+.text5 {
+    color: #5CBE3A;
+    font-family: Raleway;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    height: 90px;
+    margin: 0;
+
+}
+
+.text6 {
+    color: #051101;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    opacity: 0.7;
+}
