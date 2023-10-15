@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+/* импортируем шрифты */
 
 * {
     box-sizing: border-box;
 }
+
+/* выбираем все элементы на странице */
 
 html {
     font-family: Raleway;
@@ -10,11 +13,15 @@ html {
     color: #051101;
 }
 
+/* указываем шрифт по умолчанию */
+
 body,
 h1,
 p {
     margin: 0;
 }
+
+/* обнуляем все базовые стили браузера */
 
 a {
     text-decoration: none;
@@ -30,6 +37,8 @@ a {
     opacity: 0.7;
 }
 
+/* параграф базовый текст*/
+
 .title {
     color: #051101;
     font-size: 61px;
@@ -37,6 +46,8 @@ a {
     font-weight: 700;
     line-height: 120%;
 }
+
+/* заголовок h1 */
 
 .sub-title {
     color: #000;
@@ -46,13 +57,19 @@ a {
     line-height: 130%;
 }
 
+/* заголовок h2 */
+
 .text-center {
     text-align: center;
 }
 
+/* св-во центрирующей текст */
+
 .display-flex {
     display: flex;
 }
+
+/* расставляет элементы друг за другом */
 
 .container {
     width: 1140px;
@@ -125,13 +142,14 @@ a {
     border-radius: 4px;
     border: 1px solid rgba(92, 190, 58, 0.30);
     color: #5CBE3A;
-
     font-family: Raleway;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
+    margin-left: 50px;
+    cursor: pointer;
 }
 
 .left-panel {
@@ -143,6 +161,21 @@ a {
 .left-panel-price {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
+    width: 250px;
+}
+
+.left-panel-info {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.left-panel-info1 {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    margin-left: 25px;
 }
 
 .slogan {
@@ -156,6 +189,17 @@ a {
     font-weight: 600;
     line-height: 140%;
     text-transform: uppercase;
+    margin: 0;
+    margin-right: 15px;
+}
+
+.nike-green {
+    width: 50.181px;
+    height: 22.25px;
+    flex-shrink: 0;
+    color: #87D16D;
+    margin-bottom: 10.31px;
+    padding-top: 5px;
 }
 
 .slogan1 {
@@ -165,7 +209,9 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: 130%;
-    text-decoration-line: strikethrough;
+    text-decoration-line: line-through;
+    height: 35px;
+    margin: 0;
 }
 
 .text3 {
@@ -175,16 +221,20 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: 130%;
+    height: 35px;
+    margin: 0;
 }
 
 .text5 {
     color: #5CBE3A;
-
     font-family: Raleway;
     font-size: 85px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
+    height: 90px;
+    margin: 0;
+
 }
 
 .text6 {
